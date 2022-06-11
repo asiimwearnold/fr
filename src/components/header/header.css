@@ -42,7 +42,7 @@
 
 }
 .headerSearch{
-   height: 30px;
+   height: 50px;
    background-color: aliceblue;
    border: 3px solid whitesmoke;
    display: flex;
@@ -78,7 +78,7 @@
     color:gray;
 }
 .optionCounterButton{
-    width: 30px;
+    width: 29px;
     height: 30px;
     border: 1px solid #0336FF;
     color:gray;
