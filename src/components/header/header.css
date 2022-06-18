@@ -4,22 +4,25 @@
     display: flex;
     justify-content: center;
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
+    padding-top: 50px;
+    height:auto;
+    
 }
 .headerContainer{
     width: 100%;
     max-width: 1124px;
-    margin: 20px 0px 100px 0px;
+    margin: 20px 1px 100px 4%;
 }
 .headerContainer.listMode{
     display: 20px 0px 0px 0px ;
 }
 .headerList{
-    display: flex;
+    display:flex;
     gap: 40px;
 }
 .headerListItem{
-    display: flex;
+    display:flex;
     align-items: center;
     gap: 10px;
 }

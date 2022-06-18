@@ -1,0 +1,9 @@
+.slide{
+    display: flex;
+    align-items: center;
+}
+.headerListItem{
+    display: flex;
+    align-items: center; 
+    width: 100px;  
+}
