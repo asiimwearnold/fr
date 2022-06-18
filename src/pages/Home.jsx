@@ -14,6 +14,7 @@ import Featured1 from '../components/featured/Featured1'
 //import Slider from 'react-slick'
 import Card3 from '../components/card/Card3'
 
+
 const Home = () => {
   return (
     <div>
