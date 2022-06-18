@@ -8,11 +8,7 @@ import './slide.css'
 //import DropDownCard from '../card/dropDownCard/DropDownCard'
 //import '../card/dropDownCard/styles.css'
 import ItemList from '../itemlist/ItemList';
-
-
-
-
-
+import './slide.css'
 
 const PauseOnHover =()=>{
   var settings = {
@@ -26,8 +22,8 @@ const PauseOnHover =()=>{
   };
   return(
       
-    <div >
-    <h2> Lets get you settled</h2>
+    <div className='headerText'>
+    <h1 > Lets get you settled</h1>
     <Slider {...settings}>
       <div >
           <ItemList/>

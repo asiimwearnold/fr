@@ -8,6 +8,8 @@ import{
 import Home from "./pages/Home"
 import List from "./pages/list/List"
 import Hotel from './pages/hotel/Hotel';
+import Chat from './components/chat/Chat';
+import Admin_chat from './components/chat/Admin_chat';
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/hotels" element={<List/>}/>
       <Route path="/hotels/:id" element={<Hotel/>}/>
-    </Routes>
+      <Route exact path="/Chat" component={Chat} />
+      <Route path="/agent" component={Admin_chat} />
+      </Routes>
     </BrowserRouter>
   );
 }
