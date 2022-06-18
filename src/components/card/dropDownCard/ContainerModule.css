@@ -1,0 +1,17 @@
+.container {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container :global .rmd-card {
+  margin: 0.5rem;
+}
+:global .rmd-dialog--full-page :local .container :global .rmd-card {
+  width: 100%;
+}
+
+.centered {
+  justify-content: center;
+}
+
+/*# sourceMappingURL=ContainerModule.css.map */

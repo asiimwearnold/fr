@@ -1,5 +1,6 @@
 import React from 'react'
 import "./propertyList.css"
+
 const PropertyList = () => {
   return (
     <div className="pList">
@@ -41,6 +42,7 @@ const PropertyList = () => {
                 <h2>223 hotels</h2>
             </div>
         </div>
+ 
         
     </div>
   )

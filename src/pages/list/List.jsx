@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import Header from '../../components/header/Header'
 import Navbar from '../../components/navbar/Navbar'
+import Navbar1 from '../../components/navbar/Navbar1'
 import "./list.css" 
 import { useLocation } from 'react-router-dom'
 import { DateRange } from 'react-date-range'
@@ -17,6 +18,7 @@ const [options, setOptions] = useState(location.state.options)
   return (
     <div>
       <Navbar/>
+      <Navbar1/>
       <Header type="list"/>
     <div className="listContainer">
       <div className="listWrapper">
